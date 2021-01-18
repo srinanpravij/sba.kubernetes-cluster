@@ -1,0 +1,17 @@
+Kubernetes control plane is running at https://127.0.0.1:49153
+KubeDNS is running at https://127.0.0.1:49153/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+NAMESPACE              NAME                                        READY   STATUS    RESTARTS   AGE   IP             NODE       NOMINATED NODE   READINESS GATES
+default                sba-app-deployment-78486446b9-4dzwp         1/1     Running   0          83m   172.17.0.4     minikube   <none>           <none>
+default                sba-app-deployment-78486446b9-75j6x         1/1     Running   0          83m   172.17.0.3     minikube   <none>           <none>
+default                sba-app-deployment-78486446b9-zf8kv         1/1     Running   0          83m   172.17.0.5     minikube   <none>           <none>
+kube-system            coredns-f9fd979d6-46z45                     1/1     Running   0          88m   172.17.0.2     minikube   <none>           <none>
+kube-system            etcd-minikube                               1/1     Running   0          88m   192.168.49.2   minikube   <none>           <none>
+kube-system            kube-apiserver-minikube                     1/1     Running   0          88m   192.168.49.2   minikube   <none>           <none>
+kube-system            kube-controller-manager-minikube            1/1     Running   0          88m   192.168.49.2   minikube   <none>           <none>
+kube-system            kube-proxy-tndr2                            1/1     Running   0          88m   192.168.49.2   minikube   <none>           <none>
+kube-system            kube-scheduler-minikube                     1/1     Running   0          88m   192.168.49.2   minikube   <none>           <none>
+kube-system            storage-provisioner                         1/1     Running   0          88m   192.168.49.2   minikube   <none>           <none>
+kubernetes-dashboard   dashboard-metrics-scraper-c95fcf479-jl7t7   1/1     Running   0          76m   172.17.0.6     minikube   <none>           <none>
+kubernetes-dashboard   kubernetes-dashboard-584f46694c-zx4gj       1/1     Running   0          76m   172.17.0.7     minikube   <none>           <none>
